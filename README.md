@@ -1,6 +1,6 @@
 # BDNS Asset Name Scraper
 
-A simple command-line Python utility to scrape BDNS (Broad-spectrum Digital Naming System) compliant asset names from PDF documents. It finds matching names, extracts them, and saves the unique, sorted list to a text file.
+A simple command-line Python utility to scrape [BDNS](https://github.com/theodi/BDNS) compliant asset names from PDF documents. It finds matching names, extracts them, and saves the unique, sorted list to a text file.
 
 ---
 
@@ -36,7 +36,7 @@ Follow these steps to get the scraper running in a virtual environment.
     # On macOS/Linux:
     source venv/bin/activate
     # On Windows:
-    # venv\Scripts\activate
+    venv\Scripts\activate
     ```
 
 2.  **Install Dependencies**
@@ -58,5 +58,5 @@ You run the script from the command line. You **must** provide the path to the i
 This command will scrape the specified PDF and save the results to the default `bdns_assets.txt` file.
 
 ```bash
-python3 scraper.py /path/to/your/document.pdf -o /path/to/custom_output.txt
+python3 bdns-scraper.py /path/to/your/document.pdf -o /path/to/custom_output.txt
 
