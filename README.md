@@ -32,10 +32,10 @@ Follow these steps to get the scraper running in a virtual environment.
     # Create the virtual environment
     python3 -m venv venv
 
-    # Activate it
-    # On macOS/Linux:
+    # Activate it on macOS/Linux:
     source venv/bin/activate
-    # On Windows:
+    
+    # Activate it on Windows:
     venv\Scripts\activate
     ```
 
