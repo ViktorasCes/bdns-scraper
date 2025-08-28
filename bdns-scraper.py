@@ -16,7 +16,7 @@ def scrape_bdns_assets(pdf_path):
     """
     # A general regex pattern for BDNS names. This can be refined based on specific BDNS rules.
     # It looks for a sequence like: <uppercase_letters>-<alphanumeric_chars>-<digits>-<alphanumeric_chars>
-    bdns_pattern = r'\b[A-Z]{2,}-\w+-\d{2,}-\w{2,}\b'
+    bdns_pattern = r'[A-Z]{2,6}(?:[1-9][0-9]*)?-[1-9][0-9]*'
     
     found_assets = set()
     try:
